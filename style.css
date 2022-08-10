@@ -66,23 +66,23 @@ div .icon-view-image{
     color: var(--cyan);
     cursor: pointer;
 }
-
-.detail, .coin-timer-text{
-    color: var(--soft-blue);
+.detail,.coin-timer-text{
+    color:var(--soft-blue);
 }
+
 .balance{
     display: flex;
     justify-content: space-between;
 }
-
-.balance-text{
-    margin-left: 10px;
-}
-.coin-balance,.coin-timer{
+.coin-timer,.coin-balance{
     display: flex;
+    width: 90px;
 }
 .coin-balance-text{
     color: var(--cyan);
+}
+.balance-text{
+    margin-left: 7px;
 }
 
 .creator{
