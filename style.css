@@ -62,9 +62,25 @@ div .icon-view-image{
     color: var(--white);
     margin-top: 10px;
 }
-.title:hover{
-    color: var(--cyan);
+.title:hover,a:hover{
     cursor: pointer;
+    transition: ease-in-out 0.4s;
+    animation-name: linkcolor;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes linkcolor {
+
+    0% {
+        color: cyan
+    }
+    50% {
+        color: purple
+    }
+    100% {
+        color: cyan
+    }
 }
 .detail,.coin-timer-text{
     color:var(--soft-blue);
